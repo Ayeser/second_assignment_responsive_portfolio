@@ -1,0 +1,35 @@
+body {
+    background-color: powderblue;
+}
+p.blue {
+    color: blue;
+}
+p.red {
+    color: red;
+}
+p.green {
+    color: green;
+}
+p.orange {
+    color: orange;
+}
+p.center {
+    text-align: center;
+}
+p.thick {
+    font-weight: bold;
+}
+p.large {
+    font-size: 300%;
+}
+p.tiny {
+    font-size: 50%;
+}
+p.verdana {
+    font-family: verdana;
+}
+p.styledFont {
+    color: purple;
+    font-family: Haettenschweiler;
+    font-size: 115%
+}

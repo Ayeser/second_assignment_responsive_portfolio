@@ -1,0 +1,107 @@
+header {
+    border: 1px solid #686868;
+    height: 97px;
+    font: Georgia;
+    background-color: white;
+    padding: 0px 40px 0px 0px;
+}
+
+footer {
+    height: 50px;
+    font: Georgia;
+    text-align: center;
+    color: white;
+    background-color: #404040;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+}
+
+body {
+    background-color: #D3D3D3;
+    width: 960px;
+}
+
+.mainBox {
+    background-color: white;
+    margin: 50px 50px 50px 50px;
+    padding: 15px;
+    float: center;
+    font-size: 14pt;
+}
+
+/* Currently 'logo' is where it says Matthew Wester on top bar */
+.logo {
+    background: #4aaaa5;
+    color: white;
+    float: left;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+.menu {
+    float: right;
+    color: #D3D3D3;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 6px 0px 16px 0px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* when hovering the color of the button changes slightly */
+input[type=submit]:hover {
+    background-color: #3c8c88;
+}
+
+img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    border:0;
+}
+
+.project {
+    float: left;
+    margin: 10px 25px 10px 25px;
+}
+
+/* The top is -90px so the text can be seen on top of the project images */
+.project_text {
+    position: relative;
+    top: -90px;
+    color: white;
+    background-color: #3c8c88;
+    bottom: 15px;
+    padding: 5px 20px 5px 20px;
+}
