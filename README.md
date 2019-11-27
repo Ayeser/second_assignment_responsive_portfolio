@@ -4,6 +4,8 @@
 
 ## This is a responsive portfolio using bootstrap elements.
 
+The deployed website may be found at: (https://ayeser.github.io/second_assignment_responsive_portfolio/)
+
 The website has three pages:
 
 1. About Me
